@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroZap PRO+ 360</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Corpo da página */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: url('C:/Users/savio/OneDrive/Área de Trabalho/Agorzone/bg.jpg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Overlay para o fundo mais opaco */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7); /* Menos transparente para o fundo */
+            z-index: -1;
+        }
+
+        /* Container geral */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+
+        /* Títulos principais com efeito neon */
+        h1 {
+            font-size: 3.5em;
+            text-align: center;
+            color: #00ff00; /* Neon Verde */
+            text-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00;
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h2 {
+            font-size: 2.5em;
+            color: #00ffff; /* Neon Azul */
+            text-align: center;
+            text-shadow: 0 0 15px #00ffff;
+            margin-top: 30px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-top: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .neon-text {
+            color: #ff00ff; /* Neon Roxo */
+            text-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff;
+        }
+
+        /* Estilo de cada seção do conteúdo */
+        .section {
+            margin-bottom: 50px;
+            background-color: rgba(0, 0, 0, 0.6); /* Mais opaco para as seções */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Listagem de componentes e características */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 1.1em;
+            margin-top: 10px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* Animação de aparecer lentamente o conteúdo */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Container com cor de fundo para o conteúdo */
+        .product-container {
+            margin-top: 50px;
+            padding: 30px;
+            background-color: rgba(0, 0, 0, 0.6); /* Opacidade para o fundo */
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Overlay para tornar o fundo mais opaco -->
+    <div class="overlay"></div>
+
+    <!-- Conteúdo da landing page -->
+    <div class="container">
+        <!-- Título principal -->
+        <h1 class="fade-in">🌾🤖 AgroZap PRO+ 360 – Crédito Rural Inteligente e Portátil</h1>
+        <p class="fade-in">"Mede, conversa, calcula e libera crédito. Tudo em um só aparelho, alinhado ao ritmo do campo."</p>
+
+        <!-- Seção Público-Alvo -->
+        <div class="section">
+            <h2 class="fade-in">🎯 Público-Alvo Detalhado:</h2>
+            <ul class="fade-in">
+                <li>Agricultores familiares (até 10 hectares)</li>
+                <li>Pequenos pecuaristas (até 100 cabeças)</li>
+                <li>Produtores de áreas remotas, com baixo suporte técnico</li>
+                <li>Usuários com celulares básicos e conectividade limitada</li>
+            </ul>
+        </div>
+
+        <!-- Seção Componentes do AgroZap -->
+        <div class="product-container">
+            <h2 class="fade-in">📦 Componentes do AgroZap One (Kit Portátil Completo):</h2>
+            <div class="section">
+                <ul class="fade-in">
+                    <li>SoloSmart: Sensores integrados para análise rápida e precisa de pH, umidade e temperatura do solo.</li>
+                    <li>FolhaScan: Lente macro embutida para identificação automática de doenças, pragas e deficiências nutricionais nas plantas.</li>
+                    <li>ÁreaGeo: Validação automática da área cultivada por meio de geolocalização cruzada com imagens via satélite.</li>
+                    <li>ClimaZap: Informações atualizadas sobre clima regional, integradas diretamente a bases como INMET e Embrapa.</li>
+                    <li>ConectaZap: Comunicação direta e simplificada com WhatsApp, permitindo interação imediata com a inteligência artificial.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Seção Características Técnicas -->
+        <div class="section">
+            <h2 class="fade-in">📱 Características Técnicas do Dispositivo:</h2>
+            <ul class="fade-in">
+                <li>Compacto e portátil (tamanho próximo a um celular robusto)</li>
+                <li>Interface intuitiva, com tela colorida e botão único de operação</li>
+                <li>Autonomia de bateria de até cinco dias</li>
+                <li>Operação offline com envio posterior dos dados via WhatsApp</li>
+            </ul>
+        </div>
+
+        <!-- Seção Funcionamento da IA -->
+        <div class="section">
+            <h2 class="fade-in">🧠 Funcionamento da IA AgroZap:</h2>
+            <ul class="fade-in">
+                <li>Procedimento simplificado:</li>
+                <ul class="fade-in">
+                    <li>Produtor realiza medição do solo.</li>
+                    <li>Fotografa lavoura ou pastagem.</li>
+                    <li>Registra a área cultivada via foto.</li>
+                    <li>Dados convertidos em QR Code escaneável via WhatsApp.</li>
+                </ul>
+                <li>A IA processa automaticamente:</li>
+                <ul class="fade-in">
+                    <li>Qualidade e necessidade do solo e plantas.</li>
+                    <li>Validação da área com precisão via satélite.</li>
+                    <li>Recomendações técnicas específicas de culturas e insumos.</li>
+                    <li>Análise detalhada das condições climáticas.</li>
+                    <li>Geração automática de relatório técnico, score e crédito recomendado.</li>
+                    <li>Validação simples e rápida com selfie e token via SMS.</li>
+                </ul>
+            </ul>
+        </div>
+
+        <!-- Seção Assistência Técnica -->
+        <div class="section">
+            <h2 class="fade-in">💬 Assistência Técnica Permanente (24h via WhatsApp):</h2>
+            <p class="fade-in">Resposta rápida às dúvidas comuns sobre manejo e cultivo. Orientações personalizadas conforme estágio produtivo. Encaminhamento a especialistas locais quando necessário.</p>
+        </div>
+
+        <!-- Seção Validação Simplificada -->
+        <div class="section">
+            <h2 class="fade-in">🔒 Validação Simplificada e Confiável:</h2>
+            <p class="fade-in">Sem burocracia, sem topógrafos, apenas usando GPS e satélite. Integração direta com bases oficiais como IBGE, CAR e Embrapa. Dados auditáveis e rastreáveis através de QR Code.</p>
+        </div>
+
+        <!-- Seção Integração Completa com Crédito Rural -->
+        <div class="section">
+            <h2 class="fade-in">💳 Integração Completa com Crédito Rural:</h2>
+            <p class="fade-in">Score técnico gerado por IA facilita aprovação rápida de crédito. Reduz riscos e inadimplências ao fornecer dados reais e verificáveis. Sugestões inteligentes para divisão do crédito por fase produtiva.</p>
+        </div>
+
+        <!-- Finalização do conteúdo -->
+        <p class="fade-in">"Com AgroZap PRO+ 360, basta medir, fotografar e enviar pelo WhatsApp: a IA valida, orienta e libera crédito rápido ao produtor!"</p>
+
+        <!-- Seção Protótipo Econômico -->
+        <div class="section">
+            <h2 class="fade-in">🌱 Agorzone – Protótipo Econômico para Validação em 30 dias</h2>
+            <p class="fade-in">"Agorzone transforma tecnologia simples em diagnóstico técnico imediato, validação precisa da área e crédito facilitado para produtores rurais. Resultados reais em apenas 30 dias."</p>
+        </div>
+    </div>
+
+</body>
+</html>
